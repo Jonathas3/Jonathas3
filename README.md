@@ -15,8 +15,8 @@ Atuo na construção de APIs escaláveis, seguras e de alta performance, aplican
 ---
 
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Jonathas3&show_icons=true&theme=dark&count_private=true&hide_border=true" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jonathas3&layout=compact&theme=dark&hide_border=true" width="49%" />
+  <img src="./profile/stats.svg" width="49%" />
+  <img src="./profile/top-langs.svg" width="49%" />
 </div>
 
 ---
@@ -54,4 +54,4 @@ Atuo na construção de APIs escaláveis, seguras e de alta performance, aplican
 
 ### 🔥 Streak de Contribuições
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Jonathas3&theme=dark&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com?user=Jonathas3&theme=dark&hide_border=true)
