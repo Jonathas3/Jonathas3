@@ -32,6 +32,36 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Padronizar altura do card de linguagens
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          card = Path("profile/top-langs.svg")
+          content = card.read_text(encoding="utf-8")
+
+          content = re.sub(
+              r'(<svg\s+[^>]*?height=")[0-9]+("[^>]*>)',
+              r'\g<1>195\g<2>',
+              content,
+              count=1,
+              flags=re.DOTALL,
+          )
+          content = re.sub(
+              r'viewBox="0 0 440 [0-9]+"',
+              'viewBox="0 0 440 195"',
+              content,
+              count=1,
+          )
+          content = content.replace(
+              "width: calc(100%-100px);",
+              "width: calc(100% - 100px);",
+          )
+
+          card.write_text(content, encoding="utf-8")
+          PY
+
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
