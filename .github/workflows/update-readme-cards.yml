@@ -14,7 +14,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&count_private=true&hide_border=true&card_width=440&height=200
+          options: username=${{ github.repository_owner }}&layout=compact&theme=dark&hide_border=true&card_width=440&langs_count=6&height=195
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate top languages card
