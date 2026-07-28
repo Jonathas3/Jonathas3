@@ -1,14 +1,14 @@
 
       <svg
-        width="440"
+        width="467"
         height="195"
-        viewBox="0 0 440 195"
+        viewBox="0 0 467 195"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Jonathas C.'s GitHub Stats, Rank: C</title>
+        <title id="titleId">Jonathas C.&#39;s GitHub Stats, Rank: C</title>
         <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 15, Total PRs: 0, Total Issues: 0, Contributed to (last year): 0</desc>
         <style>
           .header {
@@ -110,7 +110,7 @@
           rx="4.5"
           height="99%"
           stroke="#e4e2e2"
-          width="439"
+          width="466"
           fill="#151515"
           stroke-opacity="0"
         />
@@ -126,7 +126,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Jonathas C.'s GitHub Stats</text>
+      >Jonathas C.&#39;s GitHub Stats</text>
     </g>
       </g>
     
@@ -137,7 +137,7 @@
         >
           
     <g data-testid="rank-circle"
-          transform="translate(368.5, 47.5)">
+          transform="translate(390.5, 47.5)">
         <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
         <circle class="rank-circle" cx="-10" cy="8" r="40" />
         <g class="rank-text">
