@@ -4,7 +4,7 @@ Desenvolvedor **Backend .NET | Java | APIs | Microsserviços | Azure | Docker | 
 
 Atuo na construção de APIs escaláveis, seguras e de alta performance, aplicando boas práticas como **Clean Architecture, DDD e SOLID**, com experiência em todo o ciclo de desenvolvimento — da modelagem ao deploy em ambientes cloud.
 
-- 🔭 Atualmente na **Semantix** como Analista de Desenvolvimento de Sistemas II
+- 🔭 Atualmente como Analista de Desenvolvimento de Sistemas II
 - 🏗️ Foco em **arquitetura distribuída, microsserviços e integrações entre sistemas críticos**
 - ☁️ Experiência com **Azure, Docker, Kubernetes e CI/CD (Azure DevOps)**
 - 📨 Mensageria com **RabbitMQ e Kafka** para arquiteturas assíncronas e resilientes
